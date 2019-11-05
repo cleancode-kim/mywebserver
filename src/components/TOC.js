@@ -6,8 +6,7 @@ class TOC extends Component {
     return (
       <nav>
         <ul>
-            <li><a href="1.html"> 122.html</a></li>
-            <li><a href="2.html"> CSS</a></li>
+            <li><a href="1.html"> 1.html</a></li>
             <li><a href="3.html"> Javascript</a></li>
         </ul>
       </nav>
