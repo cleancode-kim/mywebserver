@@ -27,7 +27,7 @@ class Bus extends Component {
         className="Bus 35" 
         onClick={ () => func1() }
       >
-        Bus 35
+        Bus-35
       </button>
       //<h1>{`Bus 35: , ${this.props.message}`}</h1>
       //<h1>{`state.msg: , ${this.state.msg}`}</h1>

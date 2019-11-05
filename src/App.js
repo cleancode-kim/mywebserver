@@ -15,19 +15,6 @@ class Subject extends Component {
   }
 }
 
-class Nav2 extends Component {
-  render() {
-    return (
-      <nav>
-        <ul>
-          <li><a href="2.html"> CSS</a></li>
-          <li><a href="3.html"> Javascript</a></li>
-        </ul>
-      </nav>
-    );
-  }
-}
-
 class App extends Component {
   render() {
     return (
