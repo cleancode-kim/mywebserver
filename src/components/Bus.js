@@ -58,7 +58,7 @@ function makeMsgBusOrd(body, word)
   var $ = cheerio.load(body);
   $('itemList').each(function(idx) {
     var no1 = $(this).find( word ).text();
-    msg += "<h1> 구간순번: " +  no1 + '</h1><p>';
+    msg += "<h1> 구간번호: " +  no1 + '</h1><p>';
     //console.log(`구간순번: ${no1}, 구간ID: ${no2 ? no2 : '---'}`);
   });
 
